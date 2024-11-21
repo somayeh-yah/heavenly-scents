@@ -1,0 +1,46 @@
+.logo_container {
+  position: absolute;
+  top: -97px;
+  left:-70px;
+}
+.logo {
+ width: 25rem;
+}
+
+.logo_section_two {
+  font-family: var(--font-logo);
+
+  font-size: 47px;
+  font-weight: 500;
+  color: black;
+  margin: 0;
+  display: inline;
+  letter-spacing: 4px;
+  text-decoration-line: underline;
+  text-decoration-color: #b8860b;
+  text-underline-offset: 15px;
+}
+
+@media(max-width:768px) {
+  .logo_container{
+
+   padding: .2rem .6rem;
+
+  }
+  .logo {
+    width: 22rem;
+  }
+
+}
+
+
+@media(max-width:480px) {
+
+.logo_container{
+  padding:1rem;
+  }
+  .logo {
+    width: 20rem;
+  }
+
+}

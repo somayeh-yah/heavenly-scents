@@ -1,0 +1,100 @@
+.carousel_wrapper {
+
+  display: flex;
+  align-items: center;
+  height: 61rem;
+
+}
+.carousel_container {
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ 
+}
+
+.carousel_container .carousel_item {
+
+  width: 600px;
+  height: 400px;
+}
+
+.carousel_item_hidden {
+  display: none;
+}
+
+.arrow {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  color: #f0e9e0;
+  filter: drop-shadow(0px 0px 5px #a8a8a8);
+}
+
+.arrow:hover {
+  cursor: pointer;
+  color: #e4d3be;
+}
+.arrow_left {
+  left: 1rem;
+}
+
+.arrow_right {
+  right: 1rem;
+}
+
+.markers {
+  position: absolute;
+  bottom: -2rem;
+}
+
+.markers .markers_btn {
+  background-color: #f0e9e0;
+  height: .5rem;
+  width: .5rem;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 5px #555;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+.markers .markers_btn.markers_btn_inactive {
+  background-color: #756753;
+}
+
+@media(max-width:768px){
+    .carousel_wrapper{
+      height: 37rem;
+    }
+ 
+  }
+
+@media(max-width:480px){
+    .carousel_wrapper{
+        height: auto;
+    }
+       
+    .carousel_container{
+      margin: 0 auto;
+  
+   } 
+    .carousel_container .carousel_item {
+      height: 250px;
+      max-width: 400px;
+    
+    }
+    .arrow_left {
+      left: -1rem;
+    }
+    
+    .arrow_right {
+      right: -1rem;
+    }
+    .markers {
+     
+      bottom: -1rem;
+    }
+  }

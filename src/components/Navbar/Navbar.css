@@ -1,0 +1,143 @@
+
+.navbar_container .navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  
+}
+
+.navbar_container .nav-link {
+  display: flex;
+  margin: 4rem auto;
+  font-family: var(--font-body);
+  flex-wrap: wrap;
+  position: absolute;
+  left: 8rem;
+  top: 10rem;
+
+}
+.navbar_container .nav-link li{
+list-style: none;
+margin: 0 .5rem;
+}
+.navbar_container ul li a{
+ 
+  padding: .7rem 1rem;
+  display: block;
+  border-radius: 7px;
+}
+.navbar_container ul li a:hover{
+
+text-decoration: underline;
+}
+
+
+.navbar_container ul li a.active {
+  background-color: #f0e9e0;
+ 
+}
+
+.navbar_container ul li a .search_icon {
+  width: 25px;
+  align-items: center;
+}
+.menu-icon {
+  
+  display: none;
+ 
+}
+
+
+
+@media(max-width: 768px){
+
+ .menu-icon{
+    display: block;
+    position: absolute;
+    top: 14rem;
+    left: 1rem;
+  }
+
+  .navbar_container .navBar {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: #fff; 
+    padding: 1rem 0;
+  }
+
+  
+
+  .navbar_container .nav-link  {
+
+    position: fixed;
+    top: -1rem;
+    left: 0;
+    width: 70%; 
+    height: 80%; 
+    margin: 1rem auto;
+    background-color: rgba(174, 104, 104, 0.4);
+    backdrop-filter: blur(6px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start; 
+    transform: translateY(-120%);
+    transition: transform 0.3s ease-in-out; 
+    z-index: 999;
+  
+    
+  }
+
+  .navbar_container ul li a{
+    color: #fff;
+  }
+  .navbar_container ul li a.active {
+    background-color: #363333;
+    padding: .7rem 2rem;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .navbar_container ul li a.active:hover{
+    color: #fff;
+  
+  }
+  .nav-link.active {
+    transform: translateY(0);
+   
+  
+  }
+
+  .navbar_container ul li a:hover{
+
+    color: #0e0d0d;
+    }
+}
+
+@media(max-width: 480px){
+  .menu-icon{
+     top: 13rem;
+     left: 0;
+   
+   }
+
+   .navbar_container .nav-link {
+     top: -4rem;
+    height: 63%; 
+   width: 60%;
+   }
+   .nav-link.active {
+    transform: translateY(0);
+   
+  
+  }
+
+  .navbar_container ul li a{
+   font-size: large;
+  }
+
+ 
+ }
+ 
