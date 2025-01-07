@@ -3,7 +3,7 @@
 * {
   --font-logo: "Playfair Display", serif;
   --font-body: "Roboto", sans-serif;
-
+ --background-color:#ffff;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
