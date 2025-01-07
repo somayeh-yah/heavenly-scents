@@ -38,7 +38,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .form h1 {
@@ -69,11 +69,9 @@
 .form_label {
   display: inline-block;
   position: absolute;
-  top: -7px;
+  top: -18px;
   left: 10px;
-  color: #666;
   text-transform: uppercase;
-  background-color: #f8f8f8;
   font-size: 0.8rem;
 }
 
@@ -124,7 +122,7 @@
 .form_input_login .navigate_to_login_link {
   font-size: 1.5rem;
   display: inline;
-  color: #4010eb;
+  color: #5c39d5;
   cursor: pointer;
 }
 
@@ -145,8 +143,7 @@
   .form {
     display: grid;
     position: static;
-    top: unset;
-    left: unset;
+    gap: 1rem;
     transform: none;
     place-items: center;
     padding: 6rem 0rem;

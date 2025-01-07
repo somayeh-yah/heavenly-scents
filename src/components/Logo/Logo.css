@@ -40,7 +40,10 @@
   padding:1rem;
   }
   .logo {
-    width: 20rem;
+    width: 17rem;
+    top: 36px;
+    position: absolute;
+    left: 28px;
   }
 
 }

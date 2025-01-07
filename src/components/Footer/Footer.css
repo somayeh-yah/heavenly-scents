@@ -47,15 +47,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
- 
-}
-
-.footer_column .social_media_links {
-  display: inline-flex;
-  align-items: center;
-  transition: color 0.3s ease;
   gap: 4rem;
+ 
 }
 
 .footer_column li,
@@ -157,8 +150,16 @@
   .footer_payment_options {
     margin: 0;
   }
+
+  .payment_options_container{
+    gap: 0;
+  }
   .footer_payment_options h2{
     margin: 0;
+  }
+  .payment_method img {
+    width: 60%;
+  
   }
 
 }
