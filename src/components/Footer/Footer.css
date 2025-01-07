@@ -33,7 +33,6 @@
 }
 .footer_column h3 {
   font-size: 1.5rem;
-  color: var(--primary-text-color);
   font-family: var(--font-body);
   margin-bottom: 30px;
 }
@@ -49,6 +48,7 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
+ 
 }
 
 .footer_column .social_media_links {
@@ -63,12 +63,19 @@
   display: flex;
   align-items: center;
   font-size: 1rem;
-  color: var(--primary-text-color);
   font-family: var(--font-body);
   text-decoration: none;
   transition: color 0.3s ease;
-  text-decoration: underline;
+
+
 }
+
+.footer_column li:hover,
+.social_media_links li:hover {
+  text-decoration: underline;
+} 
+
+
 
 .footer_payment_options {
   padding: 20px;
@@ -80,7 +87,6 @@
 .footer_payment_options h2 {
   font-family: var(--font-body);
   font-size: 1.5rem;
-  color: var(--primary-text-color);
   margin-bottom: 7px;
 }
 
@@ -154,7 +160,5 @@
   .footer_payment_options h2{
     margin: 0;
   }
-  .footer_payment_options .separator_footer {
-    /* margin: 0; */
-  }
+
 }

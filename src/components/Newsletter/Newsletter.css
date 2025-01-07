@@ -1,8 +1,8 @@
 .newsletter {
-  background-color: #f8f8f8;
+  background-color: #6c6868;
   font-family: var(--font-body);
   color: var(--primary-text-color);
-  padding: 40px 20px;
+  padding: 60px 20px;
   text-align: center;
    width: 100%;
   margin: 0 auto;
@@ -27,14 +27,12 @@
   width: 457px;
   height: 1px;
   background-color: #333;
-  margin: 10px auto 20px;
+  margin:10px;
   border: none;
 }
 
 .newsletter_description {
   font-size: 1rem;
-  color:var(--font-body);
-  color: var(--primary-text-color);
   line-height: 1.6;
   margin-bottom: 20px;
 }
@@ -70,7 +68,7 @@
 }
 
 .newsletter_button:hover {
-  background-color: #333;
+  background-color: #222222;
 }
 
 

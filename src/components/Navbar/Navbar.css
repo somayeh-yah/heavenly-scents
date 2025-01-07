@@ -22,7 +22,7 @@ list-style: none;
 margin: 0 .5rem;
 }
 .navbar_container ul li a{
- 
+
   padding: .7rem 1rem;
   display: block;
   border-radius: 7px;
@@ -35,7 +35,8 @@ text-decoration: underline;
 
 .navbar_container ul li a.active {
   background-color: #f0e9e0;
- 
+  color: rgb(94, 91, 91);
+  font-weight: bold;
 }
 
 .navbar_container ul li a .search_icon {
@@ -63,7 +64,6 @@ text-decoration: underline;
     display: flex;
     flex-direction: column; 
     align-items: center;
-    background-color: #fff; 
     padding: 1rem 0;
   }
 

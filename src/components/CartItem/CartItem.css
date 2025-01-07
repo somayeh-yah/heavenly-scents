@@ -27,7 +27,16 @@
   right: 6rem;
   top: 8rem;
   cursor: pointer;
+  
+  height: 40px;
+  padding: 5px;
 }
+
+.cart_item_container .delete_button:hover {
+  background-color:#ebe8e8;
+  transition: background-color 0.25s ease-in-out;
+  
+} 
 
 @media (max-width: 768px) {
   .cart_item_container {

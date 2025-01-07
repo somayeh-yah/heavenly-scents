@@ -30,7 +30,6 @@
 
 .login {
   font-size: 14px;
-  color: var(--primary-text-color);
   font-family: var(--font-body);
 }
 .header_right {
