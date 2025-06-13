@@ -1,9 +1,35 @@
 # React + Vite
-
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# skärmstorlekar
-- börja med 1250px
+# Heavenly Scents 
+This is a web-based e-commers application that offers user a smooth and responsive UI for online-shopping.
+
+# Features
+* User can add products to the cart
+* User can remove products from the cart
+* User can view products detail, such as image, name, price
+* User can increase and decrease product quantity in real-time
+* User can navigate to the cart page to see all added products
+* User can go to checkout page to see all the added products and the total sum, which updates in real -time when the quantity of products is changed
+* User can toggle between dark and light mode
+* responsive design for both desktop and mobile views
+
+# Technologies used
+* React - for creating reusable components, making it easier to build a consistent UI
+* react router - for navigating between pages
+* Context API - for globale state management
+* CSS3 - for styling and making the application appealing
+* For responsivity - I used Flexbox and Grid-system
+* Vite - for fast development and get to see changes directly in the browser
+
+
+# Clone this repo
+git clone https://github.com/yourusername/heavenly-scents.git
+  
+  
+# Responsive design
+* this application is responsiv and optimazied for the following screen sizes:
+- 1250px
 - 768px
 - 480px
 
